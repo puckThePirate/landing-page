@@ -1,0 +1,166 @@
+
+body {
+    margin: 0;
+}
+.header {
+    padding-top: 8px;
+    background-color: #1f2937;
+    color: white;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.left {
+    width: 500px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-self: flex-end;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cards .info-text {
+    margin: 24px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-content {
+    padding: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pic {
+    overflow: hidden;
+}
+.pic img {
+    border: 3px solid #3882f6 ;
+    border-radius: 10px;
+}
+
+.btext {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.quote,
+.quote-box,
+.action {
+    background-color: #e5e7eb;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    width: 50%;
+    height: auto;
+}
+
+.action {
+    background-color: white;
+    overflow: hidden;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.action-card {
+    padding: 48px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 10px;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.filler, .para {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo, .sub-head {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .action-card {
+    background-color: #3882f6;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 4px 24px;
+}
+
+.sign-button {
+    border: 3px solid #f9faf8;
+}
+
+.signup {
+    margin-top: 16px;
+}
